@@ -1,0 +1,27 @@
+--------------------  NOTES -------------------------
+
+React.createElement returns an react element (in lesson 1&2, a tag name string)
+     //param1 : html tag, 
+     //param2: tag attribute(s)
+     //param3: what's inside the tag (an html element, eg <p>hello world!</p>);
+
+ //the power of react is that: u can have components that is put inside components
+ //that is put inside components. REUSABILITY!
+
+variables verity?? 
+
+ReactDOM.render actually renders the component to the browser
+  
+
+ 2. package.json shows/tracks the dependencies  
+        - npm install will grab the same dependencies (good for group project)
+
+ 3. npm install -D means developer dependencies - package that are only needed for local testing and dev
+
+ 4. prettier config file - {} means default configs
+
+ 5. eslint vs prettier 
+     -- eslint concerns with style - 
+     -- prettier checks for your code formatting 
+
+6. yaml vs json (when .eslint.json)
