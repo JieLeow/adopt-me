@@ -1,5 +1,4 @@
-
-// --- Second Lesson ----- //
+// -------------- FIRST OF ALL -------------------------//
 const Pet = () => {
     return React.createElement("div", {}, [
         React.createElement("h1", {}, "Luna"),
@@ -43,7 +42,16 @@ React.createElement(Pet, {name:"Doink", animal:"Cat", breed:"Mixed"})
 
 ReactDOM.render(React.createElement(App2), document.getElementById("root"));
 
+//--------------------------- DESTRUCTURING PROPS ------------------------------//
+const Pet3 = ({name,animal,breed}) =>{
+    return React.createElement("div", {},[
+        React.createElement("h1", {}, name),
+        React.createElement("h2", {}, animal),
+        React.createElement("h2", {}, breed)
 
+
+    ]);
+}
 
 
 /** --------------------  NOTES -------------------------
@@ -54,6 +62,8 @@ ReactDOM.render(React.createElement(App2), document.getElementById("root"));
  *
  *  //the power of react is that: u can have components that is put inside components
  *  //that is put inside components. REUSABILITY!
+ * 
+ * variables verity?? 
  * 
  * ReactDOM.render actually renders the component to the browser
  *
