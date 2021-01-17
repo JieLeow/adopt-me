@@ -27,8 +27,12 @@ ReactDOM.render actually renders the component to the browser
 6. yaml vs json (when .eslint.json)
 
 
------Converting to JSX-----
+-------- Converting to JSX --------
 1. what jsx is? all it does is convert (use babel, a transpiler that transpiles jsx to js?)
 
------more setups, Configuring ESLint for Reacts-----
+----- more setups, Configuring ESLint for Reacts -----
 1. fix eslint for react and jsx issues
+
+
+
+---------------- Hooks ----------------

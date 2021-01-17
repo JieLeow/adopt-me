@@ -1,7 +1,7 @@
 import React from "react";
 // import { render } from "react-dom";
 import ReactDOM from "react-dom";
-import Pet from "./Pet";
+import SearchParams from "./SearchParams";
 
 const App = () => {
   // return React.createElement("div", {}, [
@@ -18,13 +18,19 @@ const App = () => {
   //   }),
   //   React.createElement(Pet, { name: "Doink", animal: "Cat", breed: "Mix" }),
   // ]);
+  // return (
+  //   //parentheses cuz if js sees a new line it just ends there
+  //   <div>
+  //     <h1>Adopt Me!</h1>
+  //     <Pet name="Luna" animal="Dog" breed="Havanese" />
+  //     <Pet name="Pepper" animal="Bird" breed="Cockatiel" />
+  //     <Pet name="Doink" animal="Cat" breed="Mix" />
+  //   </div>
+  // );
   return (
-    //parentheses cuz if js sees a new line it just ends there
     <div>
-      <h1>Adopt Me!</h1>
-      <Pet name="Luna" animal="Dog" breed="Havanese" />
-      <Pet name="Pepper" animal="Bird" breed="Cockatiel" />
-      <Pet name="Doink" animal="Cat" breed="Mix" />
+      <h1 id="something-important">Adopt Me!</h1>
+      <SearchParams />
     </div>
   );
 };
