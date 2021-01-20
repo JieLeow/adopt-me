@@ -26,7 +26,12 @@ class Details extends React.Component {
   }
   render() {
     if (this.state.loading) {
-      return <h1>loading … </h1>;
+      return (
+        <div>
+          <div class="lds-dual-ring"></div>
+          <h1>loading … </h1>
+        </div>
+      );
     }
 
     const { animal, breed, location, description, media, name } = this.state;
